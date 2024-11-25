@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8483b510f20d6b4eb59ccbe828005a9, type: 3}
+  m_Name: MarioDialogue
+  m_EditorClassIdentifier: 
+  npcName: Guest2
+  npcSprite: {fileID: 21300000, guid: 16a6a55f15f88c34f9e81d561592ad4b, type: 3}
+  killedNpcSprite: {fileID: 0}
+  aswangResponses:
+  - Well, for sure, Tik-tiks are terrified of garlic.
+  - "They say they can transform into anyone, even those you trust\u2014people you
+    know!"
+  - " Imagine seeing a familiar face, only to realize it\u2019s hiding a sinister
+    secret behind a smile."
+  - "Just keep an eye out. The stories may seem far-fetched, but there\u2019s always
+    a grain of truth in them."
+  - " It\u2019s best to stay indoors, where the shadows can\u2019t reach you."
+  - You can never be too careful when the night holds its breath, ready to swallow
+    you whole.
+  eclipseResponses:
+  - "It\u2019s happening right now. The sun hasn\u2019t dared to shine for days,
+    and the darkness is creeping in."
+  - The air thick with fear, suffocating like a damp cloth over your mouth.
+  - "Everyone\u2019s on edge. Some say they\u2019ve heard strange noises in the dark,
+    like voices calling for help."
+  - Last night, I stepped outside, and that chill? It seeped into my bones.
+  - ' I swear, I saw something slithering in the shadows, a flicker of movement that
+    sent my heart racing.'
+  - "Stick close to the light. It\u2019s the only sanctuary we have in this never-ending
+    night."
+  - Trust me, when the sun vanishes, so do the rules of our world
+  killDialogues:
+  - NO NO NO I AM NOT AN ASWA-
+  hearOutDialogues: []
+  hearOutDialogues1:
+  - Well...
+  - I don't really have long limbs.
+  - Do I?
+  hearOutDialogues2:
+  - My eyes are perfectly fine...
+  - You can always check them again if you want.
+  hearOutDialogues3:
+  - Well what do you think?
+  - I mean my teeth checks out right?
+  - I just have a chipped tooth, that's all.
+  hearOutDialogues4:
+  - Well there are people who can make a fake smile.
+  - I mean you don't force it on people.
+  - Sorry.
+  dialoguesNight1:
+  - I thought I was a goner for sure!
+  - You saved my life.
+  dialoguesNight2:
+  - I'm feeling a bit paranoid... Giving me chills aye?
+  - "I just hope it passes soon. We can\u2019t live like this forever."
+  dialoguesNight3:
+  - You should check the news if you haven't already.
+  - You might gain something useful.
+  dialoguesNight4:
+  - ...
+  - I hope you're right with the people you choose.
+  - ...
+  - Did you need something?
+  dialoguesNight5: []
+  introductoryDialogue:
+  - Well, well, what do we have here?
+  - A welcoming face in this endless sea of darkness.
+  - "Ah, don\u2019t worry, I\u2019m not here to cause any trouble."
+  - "I\u2019m just a wanderer looking for a bit of light in all this gloom."
+  - May I have the honor of crossing your threshold?
+  - "I promise I\u2019m more charming than I look!"
+  - "Trust me, the world\u2019s a cold place out there. "
+  - "But hey, I\u2019m one of the good guys, or at least, I try to be."
+  - So, what do you say? Room for one more in this bastion of hope?
+  option1Responses:
+  - Ah, a fine question to start with!
+  - "I\u2019m Amnah, at your service!"
+  - You know, I used to think names were just labels, nothing more than sounds we
+    answered to.
+  - But lately, with all this eternal darkness around, I see them as something more.
+  - A name is like a little spark, a flicker of light that refuses to go out, even
+    when the shadows try to snuff it out.
+  - "It\u2019s a reminder that we\u2019re still here, still fighting, still hoping
+    for a brighter day, even when it seems so far away."
+  - So, Amnah it is! A spark that keeps on glowing, no matter how dark the night.
+  option1_1Responses:
+  - Where am I from, you ask?
+  - "Ah, that\u2019s a story in itself! I hail from a small village, nestled between
+    emerald hills and shimmering rice fields."
+  - You see, life there is simple yet beautiful.
+  - The sun rises with a promise of warmth, and the evenings are filled with laughter
+    from the locals sharing tales under the stars.
+  - "But don\u2019t let the serenity fool you! It\u2019s a place where everyone knows
+    each other, and the community holds strong, even when the shadows loom around
+    us."
+  - "It\u2019s not easy, though\u2014darkness has its way of creeping in, but we
+    fight it with every smile and every meal shared together."
+  - "It\u2019s what keeps me going!"
+  option2Responses:
+  - What brings me here? Well, I heard whispers of a sanctuary amid the shadows,
+    a place where light still flickers against the eternal darkness.
+  option2_1Responses:
+  - Am I alone? Perhaps in body, but my spirit carries the voices of my village,
+    and I know I'm never truly alone in this fight.
+  featureDialoguesList:
+  - featureName: Elongated Limbs
+    featureImage: {fileID: 21300000, guid: 25e0a4615b6924b4dbc8d2c86093357a, type: 3}
+    featureDialogues:
+    - Oh! By all means! Take a look.
+    hearOutDialogue: 
+  - featureName: Dark Eyes
+    featureImage: {fileID: 21300000, guid: aad05b5b282fc95448cea3413418743c, type: 3}
+    featureDialogues:
+    - Well I have perfect eyes don't you think?
+    hearOutDialogue: 
+  - featureName: Sharp Teeth
+    featureImage: {fileID: 21300000, guid: a52998d4696c93549bfc757f96188f0a, type: 3}
+    featureDialogues:
+    - Here.
+    hearOutDialogue: 
+  - featureName: False Smile
+    featureImage: {fileID: 0}
+    featureDialogues:
+    - Don't know why you're asking me that.
+    hearOutDialogue: 

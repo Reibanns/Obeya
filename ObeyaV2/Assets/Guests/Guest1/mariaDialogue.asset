@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8483b510f20d6b4eb59ccbe828005a9, type: 3}
+  m_Name: mariaDialogue
+  m_EditorClassIdentifier: 
+  uniqueID: 011011011
+  npcName: Maria
+  npcSprite: {fileID: 21300000, guid: c16d87278a8ac3a4fb643729d8260dff, type: 3}
+  killedNpcSprite: {fileID: 21300000, guid: 4320c6e4443a8ad46a2ccd5e8b907b63, type: 3}
+  aswangResponses:
+  - " I don\u2019t know that much\u2026"
+  - Just that it came out of nowhere.
+  - One moment, everything was normal, and then it was like the world flipped.
+  - Shadows creeping in, and then the monsters...
+  - They took my family.
+  - I barely escaped.
+  eclipseResponses:
+  - "Just went dark all of a sudden\u2026"
+  - Those monsters...
+  - They came out of nowhere...
+  - They took my family.
+  - I thought I was dreaming at first.
+  - "Long claws, cold eyes\u2014like shadows that breathe. I barely made it out."
+  - The Eternal Darkness... it feels alive.
+  - It wraps around you, suffocating.
+  - I keep hearing whispers, like they're calling for more.
+  - If you decide to let anyone in, choose your visitors wisely.
+  - 'One wrong choice, and you could bring trouble to the rest of us. '
+  - "We can\u2019t afford more darkness."
+  killDialogues:
+  - Oh God... Please n-
+  hearOutDialogues: []
+  hearOutDialogues1:
+  - I have short arms and short legs.
+  - I mean I know you heard them from the radio over there...
+  - Glad to know you're being careful.
+  hearOutDialogues2:
+  - I have been crying all night.
+  - Ever since those things took my family...
+  - I'm...
+  - "I\u2019m still me. I just want this nightmare to end."
+  hearOutDialogues3:
+  - "I promise, they\u2019re just a little sharp. It\u2019s always been like this."
+  - "I\u2019ve heard the stories\u2014about aswangs having sharp teeth."
+  - But I am not one of them.
+  hearOutDialogues4:
+  - Sorry, I just can't smile.
+  - ...
+  - If I fake a smile now, that would be suspicious.
+  dialoguesNight1:
+  - Thanks for letting me in.
+  - Did you need something?
+  dialoguesNight2:
+  - I hear them...
+  - It feels like they are in this very house...
+  dialoguesNight3:
+  - Have you heard the news?
+  - They say local experts have something to say about the Aswangs
+  dialoguesNight4:
+  - Oh dear God...
+  - I'm scared...
+  dialoguesNight5: []
+  introductoryDialogue:
+  - May I come in?
+  - I...
+  - I lost my family....
+  - To those..
+  - Monsters...
+  - I need a place to stay in.
+  option1Responses:
+  - 'I... '
+  - I'm Maria
+  - "I didn\u2019t mean to intrude. I was just so desperate, and I stumbled upon
+    your house."
+  - "I live far from here, much farther than I ever thought I\u2019d end up."
+  - "I\u2019ve been wandering for days, my feet aching, always looking over my shoulder,
+    never stopping for too long."
+  - "Those monsters... they\u2019re everywhere. I thought I wouldn\u2019t make it
+    this far."
+  - "Thank God... Thank God I\u2019m still alive. But who knows for how long\u2026"
+  option1_1Responses:
+  - "I\u2019m from the Bronx Barrio. Have you ever heard of it?"
+  - "It\u2019s a rough place, and it's far from here... I don't know how I managed
+    to get this far."
+  - "The monsters, they\u2019ve been on my heels every step of the way. I\u2019ve
+    barely slept, barely eaten."
+  - "I kept telling myself, just one more step, one more day. And somehow, I\u2019m
+    still here."
+  - "I don\u2019t know if I\u2019m lucky or cursed... but all I can do is keep moving
+    and hope that maybe... just maybe... I\u2019ll find a bit of safety."
+  - By the way...
+  - My name is Maria..
+  option2Responses:
+  - Just looking for a place that feels safer than out there.
+  - Hi I am Reiven
+  option2_1Responses:
+  - "Alone is all I\u2019ve got left these days."
+  featureDialoguesList:
+  - featureName: Elongated Limbs
+    featureImage: {fileID: 21300000, guid: d6c92066eb1f33847afcf319fdf1f90c, type: 3}
+    featureDialogues:
+    - Oh you wanted to check my limbs? Sure.
+    hearOutDialogue: 
+  - featureName: Dark Eyes
+    featureImage: {fileID: 21300000, guid: 83dfb04c87fb57b4b83b435780ce9fee, type: 3}
+    featureDialogues:
+    - Come closer.
+    - Come closer.Come closer.Come closer.Come closer.
+    hearOutDialogue: 
+  - featureName: Sharp Teeth
+    featureImage: {fileID: 21300000, guid: 78b53cf99d5c71b4697ef395456506d8, type: 3}
+    featureDialogues:
+    - You want to check my teeth? I know they look a bit... different.
+    hearOutDialogue: 
+  - featureName: False Smile
+    featureImage: {fileID: 0}
+    featureDialogues:
+    - I can't. I'm sorry.
+    hearOutDialogue: 

@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8483b510f20d6b4eb59ccbe828005a9, type: 3}
+  m_Name: NPCDialogue
+  m_EditorClassIdentifier: 
+  npcName: Guest3
+  npcSprite: {fileID: 21300000, guid: 6a6b4c5eaa195c4428be9bd845f98d71, type: 3}
+  aswangResponses:
+  - What do I know about aswangs?
+  - They are not just the stories told to frighten children.
+  - They are the shadows lurking at the edges of every village, the whispers in the
+    dark that make your skin crawl.
+  - People say they can shape-shift, that they can take on any form to lure their
+    prey.
+  - They hide among us, masked by human faces.
+  eclipseResponses:
+  - 'There is something unsettling about this darkness. '
+  - 'Quite an unshakeable feeling that something is waiting... '
+  - Something watching...
+  - It seeps into your bones, makes you question what lurks just out of sight.
+  - You feel it don't you?
+  killDialogues:
+  - I WILL KILL YOU-
+  hearOutDialogues:
+  - 'Thank you. I appreciate you. '
+  - Thank you. I appreciate you. 2
+  hearOutDialogues1:
+  - I have long limbs, yes.
+  - But do not be deceived by appearances alone.
+  - "I know, I know\u2014people think I look like something out of a horror story."
+  - "That\u2019s why I told you\u2014I have been outcast by our people too, all because
+    of my appearance."
+  - It is called 'Marfan syndrome'. I have had it since I was a kid. It makes me
+    taller and gives me these long limbs.
+  hearOutDialogues2:
+  - I have not slept for days.
+  - I apologize if my eyes look suspicious.
+  hearOutDialogues3:
+  - You have seen my teeth.
+  - It is up to you to judge.
+  hearOutDialogues4:
+  - Smiling is not a reliable way to distinguish an Aswang to a Human.
+  - You are quite paranoid, yes?
+  - I understand the caution.
+  dialoguesNight1:
+  - Your house is lovely.
+  dialoguesNight2:
+  - What is it?
+  dialoguesNight3:
+  - Good evening.
+  dialoguesNight4:
+  - Hello there.
+  dialoguesNight5: []
+  introductoryDialogue:
+  - "Good evening. I hope you don\u2019t mind me intruding. It\u2019s rare to find
+    someone wandering these dark paths, especially so late."
+  option1Responses:
+  - You want to know my name?
+  - It is Rodrigo
+  - "I hail from a small settlement, once welcoming\u2026 until they turned their
+    backs on me."
+  - They said I was cursed, an outcast. I only wanted a place to call home, but darkness
+    has a way of following me.
+  option1_1Responses:
+  - "I hail from a small settlement, once welcoming\u2026 until they turned their
+    backs on me."
+  - They said I was cursed, an outcast. I just wanted a place to call home, but darkness
+    has a way of following me.
+  option2Responses:
+  - "What brings me here? I\u2019m searching for refuge, a shelter away from prying
+    eyes and whispered fears."
+  option2_1Responses:
+  - Alone? It is a lonely existence, that is for sure. But in this darkness, it is
+    often better to be isolated.
+  featureDialoguesList:
+  - featureName: Elongated Limbs
+    featureImage: {fileID: 21300000, guid: 6e6540aaa0a2d93409a3f8a8f857f70f, type: 3}
+    featureDialogues:
+    - 'So, you want to check my limbs? Sure, I get it. '
+    hearOutDialogue: 
+  - featureName: Dark Eyes
+    featureImage: {fileID: 21300000, guid: e9b468827541534419765f86eda39335, type: 3}
+    featureDialogues:
+    - Here.
+    hearOutDialogue: 
+  - featureName: Sharp Teeth
+    featureImage: {fileID: 21300000, guid: e3456448532adc849adba0989a0da553, type: 3}
+    featureDialogues:
+    - You may look at my teeth.
+    hearOutDialogue: 
+  - featureName: False Smile
+    featureImage: {fileID: 0}
+    featureDialogues:
+    - You want me to smile?
+    hearOutDialogue: 
