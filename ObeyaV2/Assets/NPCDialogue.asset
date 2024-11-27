@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8483b510f20d6b4eb59ccbe828005a9, type: 3}
+  m_Name: NPCDialogue
+  m_EditorClassIdentifier: 
+  uniqueID: 
+  npcName: 
+  npcSprite: {fileID: 0}
+  killedNpcSprite: {fileID: 0}
+  aswangResponses: []
+  eclipseResponses: []
+  killDialogues: []
+  hearOutDialogues: []
+  hearOutDialogues1: []
+  hearOutDialogues2: []
+  hearOutDialogues3: []
+  hearOutDialogues4: []
+  dialoguesNight1: []
+  dialoguesNight2: []
+  dialoguesNight3: []
+  dialoguesNight4: []
+  dialoguesNight5: []
+  introductoryDialogue: []
+  option1Responses: []
+  option1_1Responses: []
+  option2Responses: []
+  option2_1Responses: []
+  featureDialoguesList: []

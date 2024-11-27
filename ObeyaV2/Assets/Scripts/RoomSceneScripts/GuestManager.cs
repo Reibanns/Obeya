@@ -270,6 +270,7 @@ public class GuestManager : MonoBehaviour
         }
         else
         {
+            option1ResponseIndex = 0;
             ShowSecondOptions();
         }
     }
@@ -283,6 +284,7 @@ public class GuestManager : MonoBehaviour
         }
         else
         {
+            option1_1ResponseIndex = 0;
             ShowSecondOptions();
         }
     }
@@ -340,6 +342,7 @@ public class GuestManager : MonoBehaviour
         }
         else
         {
+            option2ResponseIndex = 0;
             FinishAllDialogue();
         }
     }
@@ -357,6 +360,7 @@ public class GuestManager : MonoBehaviour
         }
         else
         {
+            option2_1ResponseIndex = 0;
             FinishAllDialogue();
         }
     }

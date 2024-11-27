@@ -13,6 +13,7 @@ public class NPC : MonoBehaviour
     {
         // Get the Animator component when the NPC is instantiated
         animator = GetComponent<Animator>();
+        DontDestroyOnLoad(gameObject);
     }
 
     public void RespondToCheck(string response)
