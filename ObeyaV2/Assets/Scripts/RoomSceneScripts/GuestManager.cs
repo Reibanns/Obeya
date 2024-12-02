@@ -30,7 +30,7 @@ public class GuestManager : MonoBehaviour
     private int option2_1ResponseIndex = 0; // Index for Option 2.1 responses
     private int introIndex = 0;
 
-    private bool isInDialogue = false; // Track if in dialogue
+    public bool isInDialogue = false; // Track if in dialogue
     private bool isInOptionDialogue = false; // Track if in option dialogue
     private NPCDialogue currentNPCDialogue; // Reference to the current NPC dialogue
 
@@ -342,7 +342,7 @@ public class GuestManager : MonoBehaviour
         }
         else
         {
-            option2ResponseIndex = 0;
+            //option2ResponseIndex = 0;
             FinishAllDialogue();
         }
     }
@@ -360,7 +360,7 @@ public class GuestManager : MonoBehaviour
         }
         else
         {
-            option2_1ResponseIndex = 0;
+            //option2_1ResponseIndex = 0;
             FinishAllDialogue();
         }
     }
@@ -371,6 +371,7 @@ public class GuestManager : MonoBehaviour
         acceptButton.gameObject.SetActive(true);
         rejectButton.gameObject.SetActive(true);
         UIPanel.SetActive(true);
+        isInDialogue = false;
     }
 
     private void AcceptGuest()
