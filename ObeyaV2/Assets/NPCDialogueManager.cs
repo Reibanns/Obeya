@@ -31,8 +31,10 @@ public class NPCDialogueManager : MonoBehaviour
     public Button sharpTeethButton;
     public Button falseSmileButton;
 
+
     public GameObject dialoguePanel;
     public GameObject buttonsPanel;
+    public Sprite GuestDeath;
 
     private NPCDialogue currentNPCDialogue;
     private int dialogueIndex = 0; // Index to track current dialogue
@@ -413,8 +415,11 @@ public void KillNPC()
                     nightManager.guestList.Remove(npcObject);
                 }
 
-                // Destroy the NPC GameObject
-                Destroy(npcObject);
+                    // Destroy the NPC GameObject
+                    //Destroy(npcObject);
+                Animator npcAnim = npcObject.GetComponent<Animator>();
+                npcAnim.enabled = false;
+                npcObject.GetComponent<SpriteRenderer>().sprite = GuestDeath;
 
                 Debug.Log($"NPC {currentNPCDialogue.npcName} has been killed and removed from the game.");
             }
